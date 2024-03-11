@@ -14,7 +14,9 @@ function CsrPage() {
   }, []);
 
   if (!catFact) {
-    return <div>로딩중...</div>;
+    return <div className="flex min-h-screen flex-col items-center justify-center"
+    >로딩중..!
+    </div>;
   }
 
   return (

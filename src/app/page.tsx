@@ -1,4 +1,4 @@
 
 export default function Home() {
-  return <div>Rendering Test!!</div>
+  return <div className="flex flex-col min-h-screen items-center justify-center">Rendering Test!!</div>
 }
